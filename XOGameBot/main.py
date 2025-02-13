@@ -6,7 +6,7 @@ from pyrogram.types import InlineQuery, InlineQueryResultArticle, InputTextMessa
     InlineKeyboardMarkup, CallbackQuery, Message
 
 
-app = Client(session_name="miss_lucy",
+app = Client(session_name="python",
              api_id=os.environ.get("API_ID"),
              api_hash=os.environ.get("API_HASH"),
              bot_token=os.environ.get("BOT_TOKEN")
